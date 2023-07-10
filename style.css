@@ -17,6 +17,9 @@
     font-weight: 700;
 }
 
+span {
+    color: #E55473;
+}
 /* This is Banner Section  */
 
 .banner-container {
@@ -86,14 +89,14 @@
 .feat-flowers {
     height: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: end;
     gap: 25px;
 }
 
 .feat-flowers .flower {
     height: 100%;
-    width: 30%;
+    width: 32%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -123,6 +126,64 @@
     background-color: #477D1126;
 }
 
-.feat-flowers a{
+.feat-flowers a {
     color: black;
+}
+
+/* This is 24/7 service section  */
+
+.services {
+    margin: 100px 10%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #2727270D;
+}
+
+/* This is Sales section  */
+
+.sales-container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #E554730D;
+}
+
+.sales-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sales-content .title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sales-content .detail {
+    margin: 20px;
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sales-pic {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales-pic img {
+    height: 100%;
 }
