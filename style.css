@@ -17,9 +17,26 @@
     font-weight: 700;
 }
 
+.btn:hover {
+    background-color: #477D1126;
+    color: black;
+
+}
+
+input {
+    border: none;
+    border-radius: 8px;
+    background: white;
+    padding: 20px 45px;
+    color: #E55473;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 span {
     color: #E55473;
 }
+
 /* This is Banner Section  */
 
 .banner-container {
@@ -133,7 +150,7 @@ span {
 /* This is 24/7 service section  */
 
 .services {
-    margin: 100px 10%;
+    margin: 50px 10%;
     padding: 50px 0;
     display: flex;
     justify-content: space-evenly;
@@ -186,4 +203,84 @@ span {
 
 .sales-pic img {
     height: 100%;
+}
+
+/* This is Instagram Section  */
+
+.insta-container {
+    height: 90vh;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.insta-container legend {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.insta-container p {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.insta-pic {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insta-pic img {
+    height: 100%;
+}
+
+/* This is Latest Deal section  */
+
+.deals-container {
+    height: 40vh;
+    margin: 10px 10% 50px 10%;
+    background-image: url("./assets/rectangle9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals-container .title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-container .detail {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0 20px 0;
+}
+
+.sub-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-section input {
+    width: 50%;
 }
