@@ -6,6 +6,12 @@
     font-family: 'Lato', sans-serif;
 }
 
+.logo {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
 .btn {
     text-align: center;
     border: none;
@@ -283,4 +289,29 @@ span {
 
 .sub-section input {
     width: 50%;
+}
+
+/* This is Footer Section  */
+
+footer {
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+footer p {
+    color: #ffffffe6;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer small {
+    color: #ffffff66;
+    font-size: 16px;
+    font-weight: 400;
 }
