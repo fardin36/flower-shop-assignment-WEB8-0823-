@@ -26,7 +26,7 @@
 .btn:hover {
     background-color: #477D1126;
     color: black;
-
+    cursor: pointer;
 }
 
 input {
@@ -41,6 +41,40 @@ input {
 
 span {
     color: #E55473;
+}
+
+/* This is Navigation Section  */
+
+.nav-container {
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.nav-list li {
+    padding: 5px 15px;
+    border: 8px;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.nav-list li:hover {
+    color: #E55473;
+    cursor: pointer;
 }
 
 /* This is Banner Section  */
@@ -291,6 +325,49 @@ span {
     width: 50%;
 }
 
+/* This is Merchandise Section  */
+
+.merch-container {
+    padding: 50px;
+    height: 40vh;
+    margin: 10px 10% 50px 10%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left {
+    width: 50%;
+    text-align: center;
+}
+
+.left h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.left p {
+    color: #E55473;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.right {
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right img {
+    height: 100%;
+}
 /* This is Footer Section  */
 
 footer {
